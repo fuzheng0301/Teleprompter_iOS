@@ -41,7 +41,7 @@ firstWindow = [UIApplication sharedApplication].windows.firstObject;
 此时也无需设置requiresLinearPlayback属性，全篇关键代码仅此一句。
 
 ## 切后台保活
-此问题我参考了别人总结的现成工具，在SceneDelegate对应方法里直接调用，可参考Demo。
+此问题我参考了别人总结的[现成工具](https://blog.csdn.net/WangQingLei0307/article/details/112002904)，在SceneDelegate对应方法里直接调用，可参考Demo。
 
 ## 结束语
 感谢您的star，大家的支持是我不断努力的坚强后盾。
