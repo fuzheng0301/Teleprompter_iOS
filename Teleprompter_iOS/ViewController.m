@@ -247,7 +247,6 @@
     if (!_placeholderLab) {
         _placeholderLab = [[UILabel alloc]initWithFrame:CGRectMake(0, -1, ScreenWidth-60, (ScreenWidth-60)*0.75+2)];
         _placeholderLab.backgroundColor = [UIColor whiteColor];
-//        _placeholderLab.text = @"This video is playing in picture in picture.";
         _placeholderLab.textAlignment = NSTextAlignmentCenter;
         _placeholderLab.textColor = [UIColor lightGrayColor];
         _placeholderLab.font = [UIFont systemFontOfSize:13.0];
